@@ -1,0 +1,2 @@
+# Decathlon-Sales-Dashboard-Interactive-Excel-Analytics-Project
+The dashboard analyzes Decathlon sales data across sales performance, products, customers, geography, channels, and time. It contains three interactive reporting pages.This project is an interactive sales analytics dashboard built entirely in Microsoft Excel using Power Query, Power Pivot, DAX,PivotTables, PivotCharts, Slicers, and Timelines.
