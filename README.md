@@ -1,125 +1,117 @@
-# Decathlon Sales Dashboard -- Interactive Excel Analytics Project
+# Decathlon Sales Dashboard - Excel Project
 
 ## Project Overview
 
-This project is an **interactive sales analytics dashboard built
-entirely in Microsoft Excel** using **Power Query, Power Pivot, DAX,
-PivotTables, PivotCharts, Slicers, and Timelines**.
+I created this interactive Decathlon Sales Dashboard in Microsoft Excel to analyze sales, product, and customer performance.
 
-The dashboard analyzes Decathlon sales data across sales performance,
-products, customers, geography, channels, and time. It contains three
-interactive reporting pages.
+For this project, I used Power Query for data cleaning and transformation, Power Pivot for data modeling, and DAX for creating different KPIs and calculations.
+
+The dashboard has three pages:
+
+1. Executive Summary
+2. Product Summary
+3. Customer Summary
+
+Users can filter the dashboard using Year, Month, Product Category, Gender, Age Group, and Order Date.
 
 ## Dashboard Pages
 
 ### 1. Executive Summary
 
-Provides a high-level overview of business performance.
+This page gives an overall view of sales performance.
 
-**KPIs:** Total Sales, Total Profit, Total Orders, Total Customers,
-Profit Margin, and Average Order Value.
+Main KPIs:
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Customers
+- Profit Margin
+- Average Order Value
 
-**Analysis:** Monthly Sales vs Profit, Monthly Orders, Top States by
-Sales, Top Cities by Sales, Top Categories by Sales, Sales by Channel,
-and Key Business Insights.
+I also analyzed monthly sales and profit trends, monthly orders, top states, top cities, top product categories, and sales by channel.
 
-### 2. Product Performance Summary
+### 2. Product Summary
 
-Provides detailed product and category analysis.
+This page focuses on product and category performance.
 
-**KPIs:** Product Count, Quantity Sold, Top Selling Product, Top Revenue
-Product, Most Profitable Product, and Average Discount per Order.
+Main KPIs:
+- Product Count
+- Quantity Sold
+- Top Selling Product
+- Top Revenue Product
+- Most Profitable Product
+- Average Discount per Order
 
-**Analysis:** Top Products by Sales and Profit, Category Sales and
-Profit, Sales Contribution %, Profit Contribution %, Gender Sales
-Contribution, and Product-Level Performance.
+The page also shows top products by sales and profit, category performance, sales contribution %, profit contribution %, and product-level details.
 
-### 3. Customer Performance Summary
+### 3. Customer Summary
 
-Focuses on customer behavior, value, demographics, and geography.
+This page focuses on customer performance and customer behavior.
 
-**KPIs:** Total Customers, Repeat Customers, Average Order Value,
-Average Orders per Customer, Highest Spending Customer, and Average
-Customer Spend.
+Main KPIs:
+- Total Customers
+- Repeat Customers
+- Average Order Value
+- Average Orders per Customer
+- Highest Spending Customer
+- Average Customer Spend
 
-**Analysis:** Top Customers by Sales and Profit, Customer Sales
-Contribution, Customers by Age Group, Gender Distribution, Top
-States/Cities by Customer Count, and Customer-Level Performance.
+I also analyzed top customers by sales and profit, customer contribution, age groups, gender distribution, and customer count by state and city.
 
 ## Interactive Features
 
--   Year and Month slicers
--   Product Category slicer
--   Gender and Age Group slicers
--   Order Date timeline
--   Interactive PivotCharts
--   Cross-filtering
--   Image/icon-based page navigation
--   Executive, Product, and Customer navigation
+- Year and Month slicers
+- Product Category slicer
+- Gender and Age Group slicers
+- Order Date timeline
+- Interactive PivotCharts
+- Multiple charts connected with slicers
+- Navigation between Executive, Product, and Customer pages
 
-## Tools & Technologies
+## Tools Used
 
--   **Microsoft Excel** -- Dashboard development and visualization
--   **Power Query** -- Data cleaning and transformation
--   **Power Pivot** -- Data modeling
--   **DAX** -- KPI and analytical measures
--   **PivotTables & PivotCharts** -- Analysis and visualization
--   **Slicers & Timeline** -- Interactive filtering
+- Microsoft Excel
+- Power Query
+- Power Pivot
+- DAX
+- PivotTables
+- PivotCharts
+- Slicers
+- Timeline
 
 ## Key Calculations
 
-The project includes calculations for Total Sales, Total Profit, Profit
-Margin, Total Orders, Total Customers, Repeat Customers, Average Order
-Value, Average Orders per Customer, Average Customer Spend, Top Selling
-Product, Top Revenue Product, Most Profitable Product, Sales
-Contribution %, and Profit Contribution %.
+I created different DAX measures for:
 
-Example concept:
+- Total Sales
+- Total Profit
+- Profit Margin
+- Total Orders
+- Total Customers
+- Repeat Customers
+- Average Order Value
+- Average Orders per Customer
+- Average Customer Spend
+- Top Selling Product
+- Top Revenue Product
+- Most Profitable Product
+- Sales Contribution %
+- Profit Contribution %
+
+For example:
 
 `Sales Contribution % = Selected Sales / Total Sales`
 
-## Key Business Insights -- 2026
+## Key Insights - 2026
 
--   May recorded the strongest performance with approximately **₹12.0M
-    sales** and **₹3.8M profit**.
--   Maharashtra was the leading state with approximately **₹17.7M
-    sales**.
--   Cycling was the leading category with approximately **₹20.4M
-    sales**.
--   Mountain Bike was the strongest product, generating approximately
-    **₹20.4M sales** and **₹6.3M profit**.
--   Cycling contributed approximately **32.7% of category sales** and
-    **33.1% of category profit**.
--   The customer analysis identified approximately **5.3K customers**,
-    including **2.2K repeat customers**.
--   Rohit Kapoor was the highest-spending customer at approximately
-    **₹204.9K**.
--   Customer gender distribution was approximately **51% female and 49%
-    male**.
-
-## Business Questions Answered
-
--   How are sales and profits trending?
--   Which products and categories perform best?
--   Which states and cities generate the strongest performance?
--   Which channels contribute the most revenue?
--   Who are the highest-value customers?
--   How many customers make repeat purchases?
--   What is the average order value?
--   Which demographic groups dominate the customer base?
--   How much does each category/customer contribute to sales and profit?
-
-## Suggested Repository Structure
-
-``` text
-Decathlon-Sales-Dashboard/
-├── Decathlon_Sales_Dashboard.xlsx
-├── README.md
-└── Screenshots/
-    ├── Executive_Summary.png
-    ├── Product_Summary.png
-    └── Customer_Summary.png
-```
+- May had the highest performance with ₹12.0M sales and ₹3.8M profit.
+- Maharashtra was the top state with ₹17.7M sales.
+- Cycling was the top category with ₹20.4M sales.
+- Mountain Bike was the top-performing product with ₹20.4M sales and ₹6.3M profit.
+- Cycling contributed 32.7% of category sales and 33.1% of category profit.
+- There were around 5.3K customers, including 2.2K repeat customers.
+- Rohit Kapoor was the highest-spending customer with ₹204.9K.
+- Customer distribution was almost balanced between Female (51%) and Male (49%).
 
 ## Dashboard Preview
 
@@ -135,22 +127,19 @@ Decathlon-Sales-Dashboard/
 
 <img width="920" height="452" alt="Customer Summary Dashboard" src="https://github.com/user-attachments/assets/2f88c1ed-522e-40dd-8de5-66321b55d5e5" />
 
-## Skills Demonstrated
+## Skills Used
 
-Excel Dashboard Development \| Power Query \| Power Pivot \| DAX \| Data
-Cleaning \| Data Modeling \| PivotTables \| PivotCharts \| KPI
-Development \| Sales Analysis \| Product Analysis \| Customer Analysis
-\| Data Visualization \| Business Insight Generation
+Excel | Power Query | Power Pivot | DAX | Data Cleaning | Data Modeling | PivotTables | PivotCharts | KPI Creation | Data Analysis | Data Visualization
 
-## Author
+## About Me
 
 **Shashi Kumar Singh**
 
-Data Analytics Portfolio Project
+I am currently developing my skills in Data Analytics and building projects using Excel, SQL, Power BI, and Python.
 
-**Tools:** Excel \| Power Query \| Power Pivot \| DAX
+Email: Shashikumarsingh605@gmail.com  
+LinkedIn: in/shashi-kumar-singh-a3ba0a231
 
-------------------------------------------------------------------------
+---
 
-*This project was created for learning and portfolio demonstration
-purposes and is not an official Decathlon report.*
+*This dashboard is created as a portfolio project for learning and practice. It is not an official Decathlon report.*
